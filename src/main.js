@@ -1,6 +1,6 @@
 import datos from "./data/pokemon/pokemon.js";
 import { filtrarTarjetas, ordenarPokemon, mejoresPokemon } from "./data.js";
-const arregloPokemon = datos.pokemon.slice(0, 49);
+const arregloPokemon = datos.pokemon;
 
 const vistaPokemon = document.getElementById("vistaPokemon");
 

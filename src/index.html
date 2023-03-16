@@ -1,74 +1,77 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
 
-<head>
-  <meta charset="utf-8">
+    <title>Data Lovers M&M</title>
 
-  <title>Data Lovers M&M</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <nav>
+      <ul class="barra-horizontal">
+        <li>
+          <input
+            id="botonInicio"
+            type="button"
+            value="Home"
+            onclick="location.reload()"
+          />
+        </li>
+        <li>
+          <select id="ordenarAlfabeticamente">
+            <option disabled selected>Order</option>
 
-<body>
+            <option value="ordenar">A-z</option>
+            <option value="reversa">z-A</option>
+          </select>
+        </li>
+        <li id="parrafoTop">
+          <a href=""></a
+          ><button id="top" onclick="">Top 10 Best Pokémon</button>
+        </li>
+        <li>
+          <select id="tipos">
+            <option disabled selected>Pick a Type</option>
+            <option value="bug">Bug</option>
+            <option value="dark">Dark</option>
+            <option value="dragon">Dragon</option>
+            <option value="electric">Electric</option>
+            <option value="fighting">Fighting</option>
+            <option value="fire">Fire</option>
+            <option value="flying">Flying</option>
+            <option value="ghost">Ghost</option>
+            <option value="grass">Grass</option>
+            <option value="ground">Ground</option>
+            <option value="ice">Ice</option>
+            <option value="normal">Normal</option>
+            <option value="poison">Poison</option>
+            <option value="psychic">Psychic</option>
+            <option value="rock">Rock</option>
+            <option value="steel">Steel</option>
+            <option value="water">Water</option>
+          </select>
+        </li>
+        <!-- div>h3*4+img -->
+      </ul>
+    </nav>
 
-  <nav>
-    <ul class="barra-horizontal">
-      <li>
-        <input id="botonInicio" type="button" value="Home" onclick="location.reload()" />
-      </li>
-      <li>
-        <select id="ordenarAlfabeticamente">
-          <option disabled selected>Order</option>
+    <main id="root">
+      <aside>
+        <img
+          id="imagenPie"
+          src="https://i0.wp.com/www.3wallpapers.fr/wp-content/uploads/2015/12/pokemon-together-3Wallpapers-iPhone-Parallax..jpg?w=1242&ssl=1"
+          alt="Imágen horizontal en la parte izquierda de varios Pokémon"
+          ;
+        />
+      </aside>
+      <section class="contenedorVistaPokemon" id="vistaPokemon"></section>
+      <section id="filtrarPokemon"></section>
+    </main>
 
-          <option value="ordenar">A-z</option>
-          <option value="reversa">z-A</option>
+    <footer>Maria García Mariana López &copy; M&M 2023</footer>
 
-        </select>
-      </li>
-      <li id="parrafoTop"><a href=""></a><button id="top" onclick="">Top 10 Best Pokémon</button></li>
-      <li>
-        <select id="tipos">
-          <option disabled selected>Pick a Type</option>
-          <option value="bug">Bug</option>
-          <option value="dark">Dark</option>
-          <option value="dragon">Dragon</option>
-          <option value="electric">Electric</option>
-          <option value="fighting">Fighting</option>
-          <option value="fire">Fire</option>
-          <option value="flying">Flying</option>
-          <option value="ghost">Ghost</option>
-          <option value="grass">Grass</option>
-          <option value="ground">Ground</option>
-          <option value="ice">Ice</option>
-          <option value="normal">Normal</option>
-          <option value="poison">Poison</option>
-          <option value="psychic">Psychic</option>
-          <option value="rock">Rock</option>
-          <option value="steel">Steel</option>
-          <option value="water">Water</option>
-        </select>
-      </li>
-      <!-- div>h3*4+img -->
-    </ul>
-  </nav>
-
-  <main id="root">
-    <aside>
-      <img id="imagenPie"
-        src="https://i0.wp.com/www.3wallpapers.fr/wp-content/uploads/2015/12/pokemon-together-3Wallpapers-iPhone-Parallax..jpg?w=1242&ssl=1"
-        ;>
-
-    </aside>
-    <section class="contenedorVistaPokemon" id="vistaPokemon">
-    </section>
-    <section id="filtrarPokemon"></section>
-
-
-  </main>
-
-  <footer>Maria García Mariana López &copy; M&M 2023</footer>
-
-  <script src="main.js" type="module"></script>
-</body>
-
+    <script src="main.js" type="module"></script>
+  </body>
 </html>
