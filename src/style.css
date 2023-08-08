@@ -20,10 +20,10 @@ body {
 nav{
     width: 100%;
     margin: auto;
-    padding: 10px;
+    padding: 25px;
     background-color: rgb(19, 48, 73);
     font-size: 20px;
-    margin-top: 50px;
+
 }
 
 .barra-horizontal{
@@ -107,13 +107,15 @@ aside img {
     flex-wrap: wrap;
     gap: 16px;
     overflow: auto;
-}
+    justify-content: center;
+    }
 
 article {
     background-color: rgb(41, 68, 91);
+    padding: 8px;
     width: 300px;
     border-radius: 5%;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "sans-serif", sans-serif;
     color: rgb(253, 250, 250);
     text-align: center;
@@ -121,6 +123,7 @@ article {
     flex-direction: column;
     align-content: center;
     gap: 16px;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.479);
 }
 
 footer {
