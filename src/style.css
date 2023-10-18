@@ -20,10 +20,8 @@ body {
 nav{
     width: 100%;
     margin: auto;
-    padding: 25px;
-    background-color: rgb(19, 48, 73);
-    font-size: 20px;
-
+    padding: 15px;
+    background-color: rgba(29, 29, 29, 0.786);
 }
 
 .barra-horizontal{
@@ -38,14 +36,14 @@ nav{
 }
 
 #tipos{
-    padding: 5px 15px;
     background-color: rgb(44, 241, 22);
-    color: rgb(19, 48, 73);
-    font-family: "sans-serif", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 5%;
-    display: inline-block; 
+    color: rgb(19, 48, 73); 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
     
 }
 
@@ -54,24 +52,17 @@ nav{
 }
 
 #ordenarAlfabeticamente, #botonInicio, #top{
-    padding: 5px 15px;
+    background-color: rgb(242, 242, 242);
+    padding: 10px 15px;
     color: rgb(19, 48, 73);
     border: 0ch;
     font-family: "sans-serif", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    /* font-weight: bold; */
+    border: none;
     border-radius: 5%;
-    display: inline-block; 
-    
-}
-
-#parrafoTop, input{
-    text-align: center;
-
-}
-
-.barra-horizontal > li:hover{
-    background-color: black;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .barra-horizontal > li:hover .lista-tipos{
@@ -108,6 +99,7 @@ aside img {
     gap: 16px;
     overflow: auto;
     justify-content: space-evenly;
+    margin-top: 8px;
     }
 
 article {
@@ -117,17 +109,47 @@ article {
     border-radius: 5%;
     font-size: 20px;
     font-family: "sans-serif", sans-serif;
-    color: rgb(253, 250, 250);
+    color: rgb(224, 224, 224);
     text-align: center;
     display: flex;
     flex-direction: column;
     align-content: center;
     gap: 16px;
-    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.479);
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.479);
 }
+  
+  article h1 {
+    font-size: 24px;
+  }
+  
+  #tiposLetra {
+    font-size: 18px;
+  }
+  
+  article h3 {
+    font-size: 16px;
+  }
+  
+  article img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  article h4 {
+    font-size: 18px;
+  }
+  
+  article h5 {
+    font-size: 14px;
+  }
+
+  article h6 {
+    font-size: 16px;
+  }
 
 footer {
-    background-color: rgba(19, 48, 73);
+    background-color: rgba(29, 29, 29, 0.786);
     padding: 1em 2em 1em;
     border: 0px solid rgb(251, 244, 244);
     font-size: 12px;
