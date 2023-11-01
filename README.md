@@ -51,13 +51,18 @@ Iniciamos nuestra tercera historia, en esta deseábamos que nuestro usuario pudi
 Para finalizar nuestras historias de usuarios creamos un top 10 de los mejores Pokémons, esto se realizó a través de la suma total de los cinco Stats y la división del total de la suma entre cinco, para tener un promedio especifico y poder conocer los pokémons mas fuertes. 
 Esto con la finalidad de que el usuario pueda tener una referencia exacta a la hora de escoger un Pokémon.
 
-<img src="HU4-Calcular-Data.png" alt="HU4Cálculo" width="200" height="150">
+<div style="text-align:center">
+  <img src="HU4-Calcular-Data.png" alt="HU4Cálculo" width="500" height="450">
+</div>
 
 ### Actualización | mG Octubre 2023
 
 Las actualizaciones realizadas son respecto al diseño del proyecto. 
 
- ![HU4Cálculo](actualización.png)
+<div style="text-align:center">
+  <img src="actualización.png" alt="actualización" width="500" height="450">
+</div>
+ ![HU4Cálculo]()
  
 En el proceso de la creación de nuestras historias de usuarios realizamos las pruebas de test, con un requisto mínimo de 70% de statements (sentencias), functions (funciones), lines (líneas), y branches (ramas); pudimos obtener un porcentaje alto, aceptable y satisfactorio. 
 
