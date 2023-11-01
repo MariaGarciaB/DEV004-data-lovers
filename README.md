@@ -70,7 +70,7 @@ Las actualizaciones realizadas son respecto al diseño del proyecto.
 En el proceso de la creación de nuestras historias de usuarios realizamos las pruebas de test, con un requisto mínimo de 70% de statements (sentencias), functions (funciones), lines (líneas), y branches (ramas); pudimos obtener un porcentaje alto, aceptable y satisfactorio. 
 
 <div style="text-align:center">
-  <img src="Test-Data-Lovers-M&M.png" alt="PruebasUnitarias" width="650" height="200">
+  <img src="Test-Data-Lovers-M&M.png" alt="PruebasUnitarias" width="650" height="330">
 </div>
  
 Sin duda fue un reto enriquecedor, la realización de esta pagina fue pensada en todo momento en el usuario y sus funcionalidades.
