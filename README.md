@@ -21,7 +21,9 @@ Basándonos en nuestros usuarios creamos un prototipo de baja fidelidad.
 
 Nuestro prototipo de baja fidelidad ya definido.
 
- ![prototipoFinalBaja](prototipo-final-baja.jpg)
+<div>
+  <img src="prototipo-final-baja.jpg" alt="prototipoFinalBaja" width="300" height="450">
+</div>
  
 Teníamos como prioridad, darle la posibilidad a nuestro usuario de visualizar las tarjetas de los Pokémons, en estas darles información especifica como: 
 
@@ -44,7 +46,7 @@ Decidimos filtrar por tipos, pensando en la comodidad del usuario poco conocedor
 Tomamos en cuenta el Feedback recibido de la primera historia de usuario y también adaptamos cambios pensando en estos.
 
 <div style="text-align:center">
-  <img src="H2-Filtrar-Data.png" alt="HU2Filtrar" width="400" height="300">
+  <img src="H2-Filtrar-Data.png" alt="HU2Filtrar" width="400" height="350">
 </div>
  
 Después pensamos en insertar un botón de inicio, que nos refrescara la página y así el usuario después de poder ver el tipo especifico podía volver a visualizar todas las tarjetas con total comodidad.
@@ -54,7 +56,7 @@ Para finalizar nuestras historias de usuarios creamos un top 10 de los mejores P
 Esto con la finalidad de que el usuario pueda tener una referencia exacta a la hora de escoger un Pokémon.
 
 <div style="text-align:center">
-  <img src="HU4-Calcular-Data.png" alt="HU4Cálculo" width="400" height="300">
+  <img src="HU4-Calcular-Data.png" alt="HU4Cálculo" width="400" height="350">
 </div>
 
 ### Actualización | mG Octubre 2023
@@ -62,19 +64,19 @@ Esto con la finalidad de que el usuario pueda tener una referencia exacta a la h
 Las actualizaciones realizadas son respecto al diseño del proyecto. 
 
 <div style="text-align:center">
-  <img src="actualización.jpg" alt="actualización" width="400" height="300">
+  <img src="actualización.JPG" alt="actualización" width="400" height="350">
 </div>
  
 En el proceso de la creación de nuestras historias de usuarios realizamos las pruebas de test, con un requisto mínimo de 70% de statements (sentencias), functions (funciones), lines (líneas), y branches (ramas); pudimos obtener un porcentaje alto, aceptable y satisfactorio. 
 
 <div style="text-align:center">
-  <img src="Test-Data-Lovers-M&M.png" alt="PruebasUnitarias" width="400" height="300">
+  <img src="Test-Data-Lovers-M&M.png" alt="PruebasUnitarias" width="400" height="350">
 </div>
  
 Sin duda fue un reto enriquecedor, la realización de esta pagina fue pensada en todo momento en el usuario y sus funcionalidades.
 Se realizaron constantes actualizaciones basadas en feedback. Agregamos collages con algunos de ellos.
 
 <div>
-  <img src="Primer-feedback-usuarios.jpg" alt="primerFeedbackUsuarios" width="300" height="4500">
+  <img src="Primer-feedback-usuarios.jpg" alt="primerFeedbackUsuarios" width="300" height="450">
   <img src="Collage-feedback-proyecto-final.jpg" alt="FeedbackUsuarios" width="300" height="450">
 </div>
