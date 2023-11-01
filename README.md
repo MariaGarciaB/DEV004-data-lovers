@@ -46,7 +46,7 @@ Decidimos filtrar por tipos, pensando en la comodidad del usuario poco conocedor
 Tomamos en cuenta el Feedback recibido de la primera historia de usuario y también adaptamos cambios pensando en estos.
 
 <div style="text-align:center">
-  <img src="H2-Filtrar-Data.png" alt="HU2Filtrar" width="500" height="200">
+  <img src="H2-Filtrar-Data.png" alt="HU2Filtrar" width="600" height="330">
 </div>
  
 Después pensamos en insertar un botón de inicio, que nos refrescara la página y así el usuario después de poder ver el tipo especifico podía volver a visualizar todas las tarjetas con total comodidad.
