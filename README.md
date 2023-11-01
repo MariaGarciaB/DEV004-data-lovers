@@ -43,7 +43,9 @@ Concluyendo este proceso, comenzamos con nuestra segunda historia de usuario. Es
 Decidimos filtrar por tipos, pensando en la comodidad del usuario poco conocedor de Pokémon, para así ofrecerle la oportunidad de visualizarlos de manera más especifica. 
 Tomamos en cuenta el Feedback recibido de la primera historia de usuario y también adaptamos cambios pensando en estos.
 
- ![HU2Filtrar](H2-Filtrar-Data.png)
+<div style="text-align:center">
+  <img src="H2-Filtrar-Data.png" alt="HU2Filtrar" width="400" height="300">
+</div>
  
 Después pensamos en insertar un botón de inicio, que nos refrescara la página y así el usuario después de poder ver el tipo especifico podía volver a visualizar todas las tarjetas con total comodidad.
 Iniciamos nuestra tercera historia, en esta deseábamos que nuestro usuario pudiese ordenar de forma ascendente y descendente de manera alfabética en sí misma.
@@ -52,7 +54,7 @@ Para finalizar nuestras historias de usuarios creamos un top 10 de los mejores P
 Esto con la finalidad de que el usuario pueda tener una referencia exacta a la hora de escoger un Pokémon.
 
 <div style="text-align:center">
-  <img src="HU4-Calcular-Data.png" alt="HU4Cálculo" width="500" height="450">
+  <img src="HU4-Calcular-Data.png" alt="HU4Cálculo" width="400" height="300">
 </div>
 
 ### Actualización | mG Octubre 2023
@@ -60,17 +62,19 @@ Esto con la finalidad de que el usuario pueda tener una referencia exacta a la h
 Las actualizaciones realizadas son respecto al diseño del proyecto. 
 
 <div style="text-align:center">
-  <img src="actualización.png" alt="actualización" width="500" height="450">
+  <img src="actualización.jpg" alt="actualización" width="400" height="300">
 </div>
- ![HU4Cálculo]()
  
 En el proceso de la creación de nuestras historias de usuarios realizamos las pruebas de test, con un requisto mínimo de 70% de statements (sentencias), functions (funciones), lines (líneas), y branches (ramas); pudimos obtener un porcentaje alto, aceptable y satisfactorio. 
 
- ![PruebasUnitarias](Test-Data-Lovers-M&M.png)
+<div style="text-align:center">
+  <img src="Test-Data-Lovers-M&M.png" alt="PruebasUnitarias" width="400" height="300">
+</div>
  
-Sin duda fue un reto muy bonito y enriquecedor la creación de esta pagina pensada en todo momento en el usuario y sus funcionalidades, completas y aptas para ser atractiva y cómoda de utilizar y a la que siempre desees volver si necesitas recordar la información.
-También tomamos en cuenta nuestros Feedback y creamos collages con cada uno de ellos, con la finalidad de tenerlos presente en el avance del proyecto y a la hora de realizar cambios reales y necesarios.
+Sin duda fue un reto enriquecedor, la realización de esta pagina fue pensada en todo momento en el usuario y sus funcionalidades.
+Se realizaron constantes actualizaciones basadas en feedback. Agregamos collages con algunos de ellos.
 
- ![primerFeedbackUsuarios](Primer-feedback-usuarios.jpg)
-
- ![FeedbackUsuarios](Collage-feedback-proyecto-final.jpg)
+<div>
+  <img src="Primer-feedback-usuarios.jpg" alt="primerFeedbackUsuarios" width="300" height="4500">
+  <img src="Collage-feedback-proyecto-final.jpg" alt="FeedbackUsuarios" width="300" height="450">
+</div>
