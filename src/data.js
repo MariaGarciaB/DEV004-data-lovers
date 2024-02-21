@@ -1,3 +1,4 @@
+//Realizamos la función filtrar segun "type"
 export function filtrarTarjetas(arregloPokemon, type) {
   if (type === "") {
     return false;
@@ -8,6 +9,8 @@ export function filtrarTarjetas(arregloPokemon, type) {
 
   return result;
 }
+
+//Ordenando alfabéticamente en forma ascendente y descendente
 export function ordenarPokemon(arregloPokemon, name) {
   const arraySort = arregloPokemon.sort((a, b) => {
     if (a.name > b.name) {
@@ -27,6 +30,7 @@ export function ordenarPokemon(arregloPokemon, name) {
   }
 }
 
+//Función con cálculo para seleccionar a los 20 mejores pokemones
 export function mejoresPokemon(arregloPokemon) {
   const topPokemon = arregloPokemon.filter((element) => {
 
@@ -37,7 +41,8 @@ export function mejoresPokemon(arregloPokemon) {
       Number(element.stats["max-cp"]) +
       Number(element.stats["max-hp"]);
     const promedio = suma / 5;
-    if (promedio >= 840) {
+    // if (promedio >= 840) {
+      if (promedio >= 765) {
       return true
     }
     else {
