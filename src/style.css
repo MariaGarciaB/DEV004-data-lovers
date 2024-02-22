@@ -52,7 +52,7 @@ nav{
     font-size: 14px;
 }
 
-#ordenarAlfabeticamente, #botonInicio, #top{
+#ordenarAlfabeticamente, #botonInicio, #top, #buscarPokemon{
     background-color: rgb(242, 242, 242);
     padding: 10px 15px;
     color: rgb(19, 48, 73);

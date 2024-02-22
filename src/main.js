@@ -108,5 +108,15 @@ topPokemon.addEventListener('click', function () {
   const pokemonsTop = mejoresPokemon(arregloPokemon, bestPokemon);
   mostrarTarjetas(pokemonsTop)
 })
-mostrarTarjetas(arregloPokemon);
 
+//Funcionalidad buscador de pókemon
+const inputBuscarPokemon = document.getElementById("buscarPokemon");
+inputBuscarPokemon.addEventListener('input', function() {
+  const searchTerm = inputBuscarPokemon.value.toLowerCase().trim();
+  const pokemonesFiltrados = arregloPokemon.filter(pokemon => {
+    return pokemon.name.toLowerCase().includes(searchTerm);
+  });
+    mostrarTarjetas(pokemonesFiltrados);
+  });
+
+mostrarTarjetas(arregloPokemon);
